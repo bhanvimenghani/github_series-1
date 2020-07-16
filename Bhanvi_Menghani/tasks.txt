@@ -1,0 +1,46 @@
+Task 1
+Q1. What Do you mean by Git and GitHub?
+Git is an Open Source Version Control System which bascially keeps a record of all the different versions of the project created by you. It is open source by the help of  which you can not only build a great online portfolio for yourself but also look at the code of other people and learn from them. It is a Command Line interface and requires the use of some basic commands to operate directly from your command prompt.
+GitHub is a Graphical User Interface provides the same features as Git CLI but in a much more interactive manner and it is more user friendly.
+Q2. WHY IS GITHUB SO POPULAR AND USED IN MOST OF THE PROJECTS?
+Github is popular because of its open to use policy ie. anybody can use it for free and even multiple developers can work on the same project at the same time. It provides a great way to display and store and collaborate on projects and easy to use.
+Q3. WHAT IS A VERSION CONTROL SYSTEM HOW IS GIT A VCS?
+A VCS helps in maintaining the different versions of the same project which helps in catering to the clients need . All the updates made to code and changes can be reverted back at any point in time this particular feature is a Version Control System and we can easily do thin in Git or Github hence it is a version control system.
+Q4. WHAT ARE OTHER PLATFORMS SIMILAR TO GITHUB
+GITLAB
+BITBUCKET
+GCS Repo
+Q5WHY ARE YOU INTERESTED IN LEARNING GITHUB
+It is a great tool for a developer and preferred everywhere also i am a beginner so i want to know more about it.
+
+TASK2
+: link for GitHub repo Github-Series link  for Readme.md
+Q1. how does a git workflow flows?
+	wrokspace -----> staging area ----> local repo ----> remote repo
+	     ---(add)-->        ---(commit)-->       ---(push)--->
+	     ------------(commit -a)--------->
+	     <---------(merge)----------------       <----(fetch)----
+             <-------------------(pull)-----------------------------
+Q2. Different stages of a git project?
+	1. add: The git add adds the files from the developers working
+		space or working directory to the staging area.
+	2. commit: The git commit cmd takes a screenshort of the code
+		 at that point in time which means that after commiting
+		the repo the git keeps a track of all the changes we make
+		in it.
+	3. push: The push command pushes the files from local repository to
+		remote repository. Revetrs files or commits from local commits
+		to remote server.
+	4. fetch: The fetch is a converse of push ie. imports commits to
+		local branch .
+	5. status: See the current status of our repo
+	6. diff: to see the difference between the versions of code.
+Q3  Is it possible to do git commit before git add?
+	no, we can not do that. It will show error of untracked files
+     "nothing added to commit but untracked files present (use "git add" to track)"
+Q4. why git diff is used?
+	 to see if some changes are made or not to our files.
+	It gives the differences we made in the git repo.
+Q5 Can the commmit msg be blank ?
+	 IT can be left blank but its a good development practice to
+	add some message.
