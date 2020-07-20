@@ -1,0 +1,43 @@
+A Complete step by step guide to Github including everything explained in the Simplest way. 
+How github works, cloning, forking, making PR’s, opening issues. Everything.
+
+step1. What is Git and Github dude??
+Git is an Open Source Version Control System which bascially keeps a record of all the different versions of the project created by you. It is open source by the help of  which you can not only build a great online portfolio for yourself but also look at the code of other people and learn from them. It is a Command Line interface and requires the use of some basic commands to operate directly from your command prompt.
+GitHub is a Graphical User Interface provides the same features as Git CLI but in a much more interactive manner and it is more user friendly.
+
+stpe2 How does all this Happens?
+There is specified workflow for all this to take palce in GitHub
+wrokspace -----> staging area ----> local repo ----> remote repo
+	     ---(add)-->        ---(commit)-->       ---(push)--->
+	     ------------(commit -a)--------->
+	     <---------(merge)----------------       <----(fetch)----
+             <-------------------(pull)-----------------------------
+1. add: The git add adds the files from the developers working
+		space or working directory to the staging area.
+	2. commit: The git commit cmd takes a screenshort of the code
+		 at that point in time which means that after commiting
+		the repo the git keeps a track of all the changes we make
+		in it.
+	3. push: The push command pushes the files from local repository to
+		remote repository. Revetrs files or commits from local commits
+		to remote server.
+	4. fetch: The fetch is a converse of push ie. imports commits to
+		local branch .
+	5. status: See the current status of our repo
+	6. diff: to see the difference between the versions of code.
+
+step3 : How to get someone else's git projects ?
+ Fork It .The term fork means to create a copy of an existing git repository on your own github account. It creates an identical copy of the repo but with you as its new master and now you can add , delete, suggest changes ie. make your contributions on it.
+ Clone command copies the files from your remote repo to your workspace in your computer. It creates a copy accessible to you offline.
+
+Step4 : Whats the most important and difficult for a beginner thing?
+A PR. It stands for a Pull Request. We make a pr when we are done with 
+making changes and want to merge our work with the master branch. 
+We can add a title suitable description and tags to our PR to make it more effective.
+
+Step5: Throw some light on Merging and Conflicts?
+Merging iscombining master's work with developer's work but sometimes it leads to conflicts.
+A merge conflict is when 2 Branches tend to make changes in such a way that contradict each other. Like changes made in the same line or deleting of file by 1 developer and other developer manipulating it. These are addressed as conflicts as such commits put git into confusion as to which changes it should address. Usually in big scale projects with many developers working on the same code file merge conflict occurs often but github provides a simple way to see the differences and resolve them quite fast.
+
+Yay !! This sumsup all of Git and Github you need to know 
+you can successfully add it up to your skillset!
